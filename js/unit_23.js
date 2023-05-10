@@ -36,7 +36,7 @@ document.querySelector('.b-3').addEventListener('click', t3);
 
 
 // Task 4 ============================================
-/*  Создайте функцию t4 которая записывает  в LS  массив a4 = {hello: world, hi:mahai}. Ключ a4. Проверьте что происходит при повторном вызове функции. Запускается ф-я по кнопкуе b-4.*/
+/*  Create a function t4 that writes the array a4 = {hello: world, hi:mahai} to LS. Key a4. Check what happens when the function is called again. Starts the function by button b-4.*/
 
 let a4 = { 'hello': 'world', 'hi': 'mahai' };
 
