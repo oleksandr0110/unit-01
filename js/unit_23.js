@@ -47,7 +47,7 @@ function t4() {
 document.querySelector('.b-4').addEventListener('click', t4);
 
 // Task 5 ============================================
-/*   При нажатии кнопки b-5 выведите из LS сохранненный массив a4. Выведите в out-5 в формате ключ пробел значение перенос строки. */
+/*   When you press the b-5 button, output the stored array a4 from LS. Output to out-5 in the format key space value line break. */
 
 function t5() {
     let out = '';
@@ -61,7 +61,7 @@ function t5() {
 document.querySelector('.b-5').addEventListener('click', t5);
 
 // Task 6 ============================================
-/*  Создайте функцию t6 которая очищает весь LS. Запуск по кнопке b-6*/
+/*  Create a function t6 that clears the entire LS. Button start b-6*/
 
 function t6() {
     localStorage.clear();
@@ -71,7 +71,7 @@ document.querySelector('.b-6').addEventListener('click', t6);
 
 
 // Task 7 ============================================
-/*  Создайте input i-7 куда пользователь может вводить числа и строки. Создайте массив a7. Когда пользователь нажимает кнопку b-7 число должно добавляться в массив. Массив должен сохраняться в LS с ключем a7.*/
+/*  Create input i-7 where the user can enter numbers and strings. Create array a7. When the user presses the b-7 button, the number should be added to the array. The array must be stored in LS with the key a7.*/
 
 let a7 = [];
 
@@ -87,7 +87,7 @@ function t7() {
 document.querySelector('.b-7').addEventListener('click', t7);
 
 // Task 8 ============================================
-/*   Создайте функцию t8 при запуске которой из a7 удаляется последний элемент. После чего массив сохраняется в LS с ключем a7. Использовать массив из предыдущего задания. */
+/*   Create a function t8 which, when run, removes the last element from a7. After that, the array is stored in LS with the key a7. Use array from previous job. */
 
 function t8() {
     if (localStorage.getItem('a7')) {
