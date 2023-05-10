@@ -1,6 +1,6 @@
 
 // Task 1 ============================================
-/* Создайте функцию t1 которая записывает  в LS  ключ 5 со значением 11. Проверьте что происходит при повторном вызове функции. Запускается ф-я по кнопкуе b-1. */
+/* Create a function t1 that writes to LS the key 5 with the value 11. Check what happens when the function is called again. Starts the function by button b-1. */
 
 function t1() {
     localStorage.setItem('5', 11);
@@ -9,7 +9,7 @@ function t1() {
 document.querySelector('.b-1').addEventListener('click', t1);
 
 // Task 2 ============================================
-/* Создайте функцию t2 которая записывает  в LS  массив a2 = [7,6,5]. Ключ a2. Проверьте что происходит при повторном вызове функции. Запускается ф-я по кнопкуе b-2. */
+/* Create a function t2 that writes the array a2 = [7,6,5] to LS. Key a2. Check what happens when the function is called again. Starts the function by button b-2. */
 
 let a2 = [7, 6, 5];
 
@@ -21,7 +21,7 @@ document.querySelector('.b-2').addEventListener('click', t2);
 
 
 // Task 3 ============================================
-/*  При нажатии кнопки t3 выведите из LS сохранненный массив a2. Выведите в out-3 в формате ключ пробел значение перенос строки.  */
+/*  When pressing the button t3, output the saved array a2 from LS. Output to out-3 in the format key space value line break.  */
 
 function t3() {
     let out = '';
